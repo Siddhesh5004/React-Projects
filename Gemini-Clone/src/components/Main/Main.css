@@ -137,7 +137,7 @@
     border-radius: 4px;
     border: none;
     background-color: whitesmoke;
-    background: linear-gradient(to right, lightblue,white,lightblue);
+    background: linear-gradient(to right, rgb(42, 169, 212),white,rgb(42, 157, 195));
     background-size: 800px 50px;
     height: 20px;
     animation: loader 3s infinite linear;
