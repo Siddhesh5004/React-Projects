@@ -25,11 +25,11 @@ const Sidebar = () => {
           {extended ? <p>New Chat</p> : null}
         </div>
         {extended
-          ? <div onClick={() => loadPrompt(item)} className="recent">
+          ? <div  className="recent">
             <p className="recent-title">Recent</p>
             {prevPrompts.map((item, index) => {
               return (
-                <div className="recent-entry">
+                <div onClick={() => loadPrompt(item)}className="recent-entry">
                   <img src={assets.message_icon} alt="" />
                   <p>{item.slice(0, 18)}...</p>
                 </div>

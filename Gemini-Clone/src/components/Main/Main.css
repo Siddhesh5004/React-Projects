@@ -1,16 +1,17 @@
 .main{
     flex: 1;
     min-height:100vh ;
-    padding-bottom: 15vh;
+    padding-bottom: 15px;
     position: relative;
 }
 .main .nav{
     display: flex;
     align-items: center;
     justify-content:space-between ;
-    font-size: 22px;
+    font-size: 18px;
     padding: 20px;
-    color:green ;
+    color:rgb(0, 0, 0) ;
+    font-weight: bold;
 }
 .main .nav img{
     width: 40px;
@@ -23,12 +24,12 @@
 .main .greet{
     margin: 50px 0px;
     font-size: 56px;
-    color: rgb(62, 64, 65);
+    color: rgba(148, 145, 144, 0.763);
     font-weight: 500;
     padding: 20px;
 }
 .main .greet span{
-    background: -webkit-linear-gradient(16deg,#4b90ff,#ff5546);
+    background: -webkit-linear-gradient(16deg,#4b85e1,#fc4d50);
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
 }
@@ -45,13 +46,13 @@
     border-radius: 10px;
     position: relative;
     cursor: pointer;
-    background-color: #e1e2e7;
+    background-color: #f0f4f9;
 }
 .main .card img{
     width: 35px;
     padding: 5px;
     position: absolute;
-    background-color: rgb(214, 212, 212);
+    background-color: rgb(249, 249, 249);
     border-radius: 20px;
     bottom: 10px;
     right: 10px;
@@ -62,7 +63,7 @@
 
 }
 .main .card :hover{
-    background-color: rgb(187, 183, 183);
+    background-color: rgb(234, 226, 226);
 }
 .main-bottom{
     position: absolute;
@@ -77,7 +78,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    background-color: #dce1e1;
+    background-color: #f0f4f9;
     padding: 10px 20px;
     border-radius: 50px;
 }
@@ -109,7 +110,7 @@
     max-height: 70vh;
     overflow-y: scroll;
 }
-.result ::-webkit-scrollbar{
+.result::-webkit-scrollbar{
     display: none;
 }
 .result-title{
@@ -137,10 +138,10 @@
     border-radius: 4px;
     border: none;
     background-color: whitesmoke;
-    background: linear-gradient(to right, rgb(42, 169, 212),white,rgb(42, 157, 195));
+    background: linear-gradient(to right, #3538ec,white,#3548ef);
     background-size: 800px 50px;
     height: 20px;
-    animation: loader 3s infinite linear;
+    animation: loader 1.5s infinite linear;
 }
 @keyframes loader {
     0%{

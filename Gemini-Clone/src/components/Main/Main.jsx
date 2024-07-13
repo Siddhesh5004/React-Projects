@@ -4,11 +4,11 @@ import { assets } from '../../assets/assets'
 import { Context } from '../../../src/context/Context';
 
 const Main = () => {
-  const {onSent,recentPrompt,showResult,loading,resultData,setInput,input}= useContext(Context);
+  const {onSent,recentPrompt,showResult,loading,resultData,setInput,input}= useContext(Context)
   return (
     <div className='main'>
       <div className='nav'>
-        <p>Gemini</p>
+        <p>Gemini 1.0 Pro</p>
         <img src={assets.user_icon} alt="user icon" />
       </div>
       <div className="main-container">
