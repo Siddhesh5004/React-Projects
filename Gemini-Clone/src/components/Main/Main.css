@@ -30,7 +30,7 @@
 }
 .main .greet span{
     background: -webkit-linear-gradient(16deg,#4b85e1,#fc4d50);
-    -webkit-background-clip:text;
+    background-clip:text;
     -webkit-text-fill-color: transparent;
 }
 .main .cards{
